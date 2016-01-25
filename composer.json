@@ -1,0 +1,16 @@
+{
+    "name": "peopleperhour/yii-logwrapper",
+    "description": "An extension of Yii logger, that facilitates JSON export",
+    "type": "yii-extension",
+    "keywords": ["yii","logging","json","PeoplePerHour"],
+    "license": "MIT",
+    "require": {
+        "yiisoft/yii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PeoplePerHour\\YiiLogExtension\\": "src/",
+            "PeoplePerHour\\YiiLogExtension\\Logger\\": "src/logger/"
+        }
+    }
+}

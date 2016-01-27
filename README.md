@@ -28,3 +28,8 @@ LogWrapper::log('dummy message', 'error_level', 'category_key')
 LogWrapper::logArray($array, 'error_level', 'category_key')
 LogWrapper::logException($exc, 'error_level', 'category_key')
 ```
+
+## Test repository
+```bash
+docker-compose run phpunit tests
+```
